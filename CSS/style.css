@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/*min-height: 100vh;*/
+	color: #000;
+}
+
+.header {
+	float: left;
+}
+
+.secondNav {
+	padding-top: 200px;
+	padding-left: 40px;
+	padding-right: 75px;
+}
+
+.navTwo {
+	padding-top: 27px;
+}
+
+.container {
+	padding-top: 50px;
+	/*width: 1000px;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	position: relative;
+	left: -6%;
+	width: 320px;
+	height: 320px;
+	transition: 0.3s ease-out;
+	box-shadow: 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.card p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+.card h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content p {
+	margin: 10px 0 0;
+	padding: 1em 1em;
+	transform: translateY(2em);
+	line-height: 1.3em;
+	transition: 0.3s;
+	text-align: justify;
+	opacity: 0;
+}
+
+.card{
+	margin: 10px;
+	overflow: hidden;
+}
+
+.card .imgbox {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card .imgbox img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	display: block;
+	transition: 0.5s;
+}
+
+.card .content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	padding: 12px;
+	background: #fff;
+	transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.card:hover .content {
+	width: 100%;
+	height: 30%;
+	left: 0;
+	bottom: 0;
+}
+
+.card:hover .content p {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.5s ease;
+
+}
+.inner:hover {
+	transform: scale(1.5);
+	transition: all ease-in-out .7s;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.btn {
+	background-color: #FEC9DC;
+	border: none;
+}
+
+/* Navigation */
+
+body {
+	margin: 0;
+	background: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.navContainer {
+	width: 80%;
+	margin: 0 auto;
+	clear:;
+}
+
+/*header {
+	background: #FFF;
+}*/
+
+/*header:after {
+	content: '';
+	display: table;
+	clear: both;
+}*/
+
+/*.logo {
+	float: left;
+}*/
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 18px;
+
+	position: relative;
+}
+
+nav a {
+	color: #272727;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+nav a:hover {
+	color: #595959;
+	text-decoration: none;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 100%;
+	background-color: #FEC9DC;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 180ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+
+.myCont{
+	width: 80%;
+}
+.card-body{
+	z-index: 1; /* so that the Furry Friends text is on top of the image */
+	background-color: white;
+}
