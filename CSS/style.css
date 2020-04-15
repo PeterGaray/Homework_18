@@ -212,9 +212,9 @@ nav a:hover::before {
 }
 
 
-.myCont{
+/*.myCont{
 	width: 80%;
-}
+}*/ /* this width was messing up positioning of the boxes */
 .card-body{
 	z-index: 1; /* so that the Furry Friends text is on top of the image */
 	background-color: white;
